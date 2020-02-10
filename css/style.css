@@ -9,8 +9,33 @@
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: "Raleway", sans-serif;
-  font-size: 16;
+  font-size: 1rem;
   color: #221d23;
+}
+
+.caracteristicas {
+  padding: 0 5%;
+}
+.caracteristicas__titulo {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+
+.car-flexbox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.car-flexbox__item {
+  max-width: 40%;
+}
+.car-flexbox__item h3 {
+  text-align: center;
+  font-size: 2.1875rem;
+  font-weight: 700;
 }
 
 .footer {
@@ -20,11 +45,10 @@ h1, h2, h3, h4, h5, h6, p {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 5%;
+  padding: 2% 5%;
 }
 .footer__items p, .footer__derechos p {
   color: #FFF;
-  font-family: "Open Sans", sans-serif;
 }
 .footer__grid {
   display: grid;

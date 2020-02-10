@@ -1,0 +1,29 @@
+.caracteristicas {
+  padding: 0 5%;
+
+  &__titulo {
+    text-align: center;
+    @include relative-converter(font-size, rem, $xxx-large, 16);
+    font-weight: $bold;
+    margin-bottom: 5%;
+  }
+}
+
+.car-flexbox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  &__item {
+    max-width: 40%;
+
+    h3 {
+      text-align: center;
+      @include relative-converter(font-size, rem, $xx-large, 16);
+      font-weight: $bold;
+    }
+
+  }
+  
+}

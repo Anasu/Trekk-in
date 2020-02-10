@@ -4,6 +4,6 @@
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: $main-typo;
-  font-size: $medium;
+  @include relative-converter(font-size, rem, $medium, 16);
   color: $raising-black;
 }

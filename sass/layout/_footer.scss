@@ -6,16 +6,13 @@
   justify-content: space-around;
   align-items: center;
   padding: 5%;
-
-  &__items p{
+  
+  &__items p, &__derechos p{
     color: $white;
+    font-family: $alt-typo;
 
   }
-
-  &__derechos p{
-    color: $white;
-  }
-
+  
   &__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

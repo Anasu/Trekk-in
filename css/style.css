@@ -9890,4 +9890,27 @@ h1, h2, h3, h4, h5, h6, p {
   color: #221d23;
 }
 
+.footer {
+  background-color: #221d23;
+  color: #FFF;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5%;
+}
+.footer__items p {
+  color: #FFF;
+}
+.footer__derechos p {
+  color: #FFF;
+}
+.footer__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer__grid_item {
+  grid-column: auto/span 1;
+}
+
 /*# sourceMappingURL=style.css.map */

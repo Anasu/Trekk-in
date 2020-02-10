@@ -1,0 +1,27 @@
+.footer {
+  background-color: $raising-black;
+  color: $white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5%;
+
+  &__items p{
+    color: $white;
+
+  }
+
+  &__derechos p{
+    color: $white;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    &_item{
+      grid-column: auto / span 1;
+    }
+  }
+}

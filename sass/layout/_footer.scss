@@ -5,12 +5,10 @@
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 5%;
+  padding: 2% 5%;
   
   &__items p, &__derechos p{
     color: $white;
-    font-family: $alt-typo;
-
   }
   
   &__grid {

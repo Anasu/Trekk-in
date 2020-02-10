@@ -1,0 +1,17 @@
+.footer {
+  background-color: $raising-black;
+  color: $white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  &__items p{
+    color: $white;
+
+  }
+
+  &__derechos p{
+    color: $white;
+  }
+}

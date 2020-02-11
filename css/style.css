@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .caracteristicas {
   padding: 0 5%;
+  margin-bottom: 6%;
 }
 .caracteristicas__titulo {
   text-align: center;
@@ -38,6 +39,25 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 700;
 }
 
+.precios {
+  background-image: url("../images/bg-price.svg");
+  background-size: cover;
+  padding-top: 15%;
+}
+.precios h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #FFF;
+  font-weight: 700;
+}
+.precios__flexbox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
 .footer {
   background-color: #221d23;
   color: #FFF;
@@ -56,6 +76,53 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .footer__grid_item {
   grid-column: auto/span 1;
+}
+
+.tarjeta {
+  background-color: #FFF;
+  border: 1px solid #c7cbcc;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 400px;
+  word-wrap: break-word;
+  border-radius: 0.25rem;
+}
+.tarjeta h3 {
+  font-size: 1.875rem;
+}
+.tarjeta__precio {
+  font-size: 2.5rem;
+  font-weight: 700;
+  border-bottom: 1px solid #c7cbcc;
+}
+.tarjeta__lista {
+  padding-left: 1.5rem;
+}
+.tarjeta__bottom {
+  border-top: 1px solid #c7cbcc;
+  padding-top: 5%;
+}
+.tarjeta__boton {
+  width: 100%;
+}
+
+.tarjeta__boton {
+  background: #2ab7ca;
+  border: 2px solid #2ab7ca;
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+}
+
+.tarjeta__boton:hover {
+  background: #77d1dd;
+  border: 2px solid #77d1dd;
+}
+
+.tarjeta__boton:focus {
+  background: #bababa;
+  border: 2px solid #bababa;
 }
 
 /*# sourceMappingURL=style.css.map */

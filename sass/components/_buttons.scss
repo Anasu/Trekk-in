@@ -1,0 +1,16 @@
+.tarjeta__boton {
+  background: $ball-blue;
+  border: 2px solid $ball-blue;
+  color: $white;
+  font-family: $alt-typo;
+}
+
+.tarjeta__boton:hover {
+  background: $middle-blue;
+  border: 2px solid $middle-blue;
+}
+
+.tarjeta__boton:focus {
+  background: $gray;
+  border: 2px solid $gray;
+}

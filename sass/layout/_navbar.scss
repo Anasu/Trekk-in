@@ -1,0 +1,11 @@
+.navegacion {
+  color: $raising-black;
+
+  &__item_link {
+    color: $raising-black;
+
+    &:hover {
+      color: $silver-chalice;
+    }
+  }
+}

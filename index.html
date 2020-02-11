@@ -16,7 +16,39 @@
 </head>
 <body>
   <!-- navbar. Hacer con grilla y media query. Poner hamburguesa como svg de fondo de un boton -->
+  <nav class="navbar navbar-expand-lg navbar-light navegacion">
+    <a class="navbar-brand" href="#">
+      <picture>
+        <img src="images/Logo.svg" alt="Trekk-in logo">
+      </picture>
+    </a>
+    <button class="navbar-toggler navegacion__boton" type="button" data-toggle="collapse" data-target="#navegacion" aria-controls="navegacion" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   
+    <div class="collapse navbar-collapse" id="navegacion">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item navegacion__item">
+          <a class="nav-link navegacion__item_link" href="#">Acerca de</a>
+        </li>
+        <li class="nav-item navegacion__item">
+          <a class="nav-link navegacion__item_link" href="#caracteristicas">Características</a>
+        </li>
+        <li class="nav-item navegacion__item">
+          <a class="nav-link navegacion__item_link" href="#precios">Precios</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Iniciar Sesión<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <button class="navegacion__boton">Regístrate</button>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <!-- hero section. El svg va como background. Vamos a tener que averiguar como funciona eso -->
 
   <!-- caracteristicas. No tiene nada de especial. Usar flexbox-->

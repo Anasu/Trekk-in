@@ -1,0 +1,35 @@
+.tarjeta {
+  background-color: $white;
+  border: 1px solid $lavander-gray;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 400px;
+  word-wrap: break-word;
+  border-radius: 0.25rem;
+
+  h3 {
+    @include relative-converter(font-size, rem, $x-large, 16);
+  }
+
+  &__precio {
+    @include relative-converter(font-size, rem, $xxx-large, 16);
+    font-weight: $bold;
+    border-bottom: 1px solid $lavander-gray;
+  }
+
+  &__lista {
+    padding-left: 1.5rem;
+  }
+
+  &__bottom {
+    border-top: 1px solid $lavander-gray;
+    padding-top: 5%;
+  }
+
+  &__boton {
+    width: 100%;
+  }
+
+}

@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, p {
   color: #221d23; }
 
 .navegacion {
-  color: #221d23; }
+  padding: 2.5% 8%; }
   .navegacion__item_link {
     color: #221d23; }
     .navegacion__item_link:hover {
@@ -126,6 +126,11 @@ h1, h2, h3, h4, h5, h6, p {
   .tarjeta__boton {
     width: 100%; }
 
+.navegacion__toggler {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 .navegacion__boton {
   background: #2ab7ca;
   border: 2px solid #2ab7ca;

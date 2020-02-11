@@ -18,6 +18,19 @@ h1, h2, h3, h4, h5, h6, p {
     .navegacion__item_link:hover {
       color: #aeacaf; }
 
+.hero {
+  background-image: url("../images/bg-hero.svg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  min-height: 61vw; }
+  .hero__acerca-de {
+    max-width: 370px;
+    margin-left: 8%; }
+    .hero__acerca-de h1 {
+      font-size: 3.125rem;
+      font-weight: 700; }
+
 .caracteristicas {
   padding: 0 5%;
   margin-bottom: 6%; }

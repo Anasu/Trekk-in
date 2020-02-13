@@ -9,6 +9,11 @@
   
   &__items p, &__derechos p{
     color: $white;
+    @include relative-converter(font-size, rem, $x-small, 16);
+    
+    @include respond-to('medium') {
+      @include relative-converter(font-size, rem, $medium, 16);
+    }
   }
   
   &__grid {

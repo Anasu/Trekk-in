@@ -31,3 +31,11 @@ $large: 20;
 $medium: 16;
 $small: 14;
 $x-small: 12;
+
+//Breakpoints
+$breakpoints: (
+  'small' : (min-width: 540px),
+  'medium': (min-width: 720px),
+  'large': (min-width: 960px),
+  'huge': (min-width: 1140px),
+)

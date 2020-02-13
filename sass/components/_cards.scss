@@ -14,6 +14,10 @@
     border-radius: 0.25rem;
   }
 
+  &:hover {
+    box-shadow: 5px 10px 11px;
+  }
+
   h3 {
     @include relative-converter(font-size, rem, $large, 16);
 
